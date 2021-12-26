@@ -1,3 +1,4 @@
+import Marking from "./Components/Marking-checkBox-18.4/Marking";
 import Text from "./Components/Text-18.1/Text"
 import Time from "./Components/Time-18.3/Time";
 
@@ -9,7 +10,8 @@ function App() {
   return (
     <div className="App">
       {/* <Text text={text} max={max} /> */}
-      <Time/>
+      {/* <Time/> */}
+      <Marking/>
     </div>
   )
 }
