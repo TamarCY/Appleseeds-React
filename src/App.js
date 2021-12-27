@@ -1,3 +1,4 @@
+import Algolia from "./Components/Algolia-useEffect.19.3/Algolia";
 import Countries from "./Components/Countries-19.2/Countries";
 import Marking from "./Components/Marking-checkBox-18.4/Marking";
 import Simple from "./Components/Simple-todo-18.2/Simple-todo";
@@ -17,7 +18,8 @@ function App() {
       {/* <Marking/> */}
       {/* <Simple/> */}
       {/* <Starwars/> */}
-    <Countries/>
+    {/* <Countries/> */}
+    <Algolia/>
     </div>
   )
 }
