@@ -1,3 +1,4 @@
+import Countries from "./Components/Countries-19.2/Countries";
 import Marking from "./Components/Marking-checkBox-18.4/Marking";
 import Simple from "./Components/Simple-todo-18.2/Simple-todo";
 import Starwars from "./Components/Starwars - 19.1/Starwars";
@@ -15,7 +16,8 @@ function App() {
       {/* <Time/> */}
       {/* <Marking/> */}
       {/* <Simple/> */}
-      <Starwars/>
+      {/* <Starwars/> */}
+    <Countries/>
     </div>
   )
 }

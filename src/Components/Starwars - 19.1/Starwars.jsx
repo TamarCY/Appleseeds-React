@@ -3,11 +3,18 @@ import axios from "axios";
 
 
 const Starwars = () => {
-    const [movies, setMovies] = useState("")
+    const [movies, setMovies] = useState([])
     useEffect (() => {
         const getData = async () => {
-         const {data} = await axios.get(`https://swapi.dev/api/films/1/`)
-         setMovies(data)
+        try {
+         const {data} = await axios.get(`https://swapi.dev/api/films/1/`);
+         console.log(data);
+         setMovies(data);
+
+        } catch (error){
+            console.log("error");
+        }
+
         };
         getData()
     },[])
