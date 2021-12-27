@@ -1,4 +1,6 @@
 import Marking from "./Components/Marking-checkBox-18.4/Marking";
+import Simple from "./Components/Simple-todo-18.2/Simple-todo";
+import Starwars from "./Components/Starwars - 19.1/Starwars";
 import Text from "./Components/Text-18.1/Text"
 import Time from "./Components/Time-18.3/Time";
 
@@ -11,7 +13,9 @@ function App() {
     <div className="App">
       {/* <Text text={text} max={max} /> */}
       {/* <Time/> */}
-      <Marking/>
+      {/* <Marking/> */}
+      {/* <Simple/> */}
+      <Starwars/>
     </div>
   )
 }

@@ -38,7 +38,6 @@ const Marking = () => {
 
     const deleteItems = () => {
         const filtered = items.filter((item) => (!item.checked))
-        console.log(filtered);
         setItems(filtered)
     }
 
